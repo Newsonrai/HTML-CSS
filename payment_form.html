@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment Form</title>
+    <link rel="stylesheet" href="payment_form.css">
+</head>
+<body><div class="container">
+    <form action="">
+        <h1 class="main_heading">Payment Form</h1>
+        <hr>
+        <h2>User Information</h2>
+        <b>
+        <p>Name:</b><input type="text" required name="name" placeholder="Enter your name"></p>
+      
+        <fieldset>
+            <legend><b>Gender</b></legend>
+        <p>
+           <b> Male </b><input type="radio" name="gender" ="male" required >
+            <b>Female</b><input type="radio" name="gender" ="female">
+            <b>Others</b><input type="radio" name="gender" ="Others">
+        </p>
+        
+    </fieldset>
+         <p>
+            <b> Address:</b><textarea placeholder="Enter youraddress" id="" cols="80" rows="8"></textarea>
+        </p>
+        <p>
+            <b> Email:</b><input type="email" name="email" id="email"  required placeholder="Enter your email">
+        </p>
+    
+    <p><b>Pincode:</b><input type="number" name="pincode" id="pincode" placeholder="Enter your pincode"></p>
+
+    <h2><b>Payment Information</b></h2>
+    <p><b> Card Type:</b>
+        <select name="cardtype" id="cardtype"required>
+            <option value="">--Select a Card Type--</option>
+            <option value="visa">Visa</option>
+            <option value="mastercard">Mastercard</option>
+            <option value="Union Pay">Union Pay</option>
+    </p>
+    </select>
+    <p><b> Card Number:</b><input type="number" name="cardnumber" id="cardnumber"required placeholder="Enter card number"></p>
+    <p><b> Expiry Date:</b><input type="date" name="expirydate" id="expirydate"required></p>
+    <p><b>CVV:</b><input type="password" name="cvv" id="cvv"required placeholder="Enter CVV" ></p>
+    <p><b> Amount:</b><input type="number" name="amount" id="amount"required placeholder="Enter amount"></p>
+    <p><input type="submit" value="Submit"></p>
+    </form>
+</div>
+</body>
+</html>

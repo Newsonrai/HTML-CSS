@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sprecificity in CSS</title>
+    <link rel="stylesheet" href="specificity.css">
+    <style>
+        /* ul#Summer-Drinks li.Favorite
+        {
+            color: red;
+        font-weight: bold;
+        }
+        ul#Summer-Drinks li{
+            font-size: 12px;
+            color: black;
+            font-weight: normal;
+        } */
+         .Favorite{
+            color: red;
+
+         }
+         .Favorite{
+            color: green;
+         }
+    </style>
+
+<body>
+    <ul id="Summer-Drinks">
+        <li>Mountain Dew</li>
+        <li>Coca Cola</li>
+        <li>Sprite</li>
+        <li>Fanta</li>
+        <li class="Favorite" style="color: hotpink;">Xtreme</li>
+        <li>Red Bull</li>
+        <li>Sting</li>
+    </ul>
+</body>
+</html>

@@ -1,0 +1,35 @@
+h4{
+    color: yellowgreen
+}
+h5
+{
+    color: aqua;
+}
+p
+{
+    color: rgb(23, 23, 32);
+}
+a
+{
+    color: rgb(255, 174, 0);
+}
+li{
+    list-style: square;
+}
+.special
+{
+    color: red;
+    font-weight: bolder;
+}
+
+/* Pseudo class Selector */
+
+a:hover
+{
+    color:pink;
+    padding: 10px;
+}
+#footer
+{
+    text-align: center;
+}
